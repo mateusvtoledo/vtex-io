@@ -2,8 +2,6 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
       "rich-text#shelf-title",
@@ -22,12 +20,12 @@
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "image": "https://i.imgur.com/zyAAgtE.png",
+          "mobileImage": "https://imgur.com/0bKfRoc.png"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "https://i.imgur.com/i5C6GEG.png",
+          "mobileImage": "https://imgur.com/SiflrCe.png"
         }
       ]
     }
@@ -43,11 +41,12 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
+
   },
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Games Destaques",
       "blockClass": "shelfTitle"
     }
   },
@@ -58,7 +57,8 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "138"
     }
   },
   "slider-layout#demo-products": {
@@ -79,10 +79,10 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
+      "imageUrl": "https://imgur.com/txNXEek.png",
+      "headline": "Lançamento Exclusivo",
+      "callToActionText": "Confira",
+      "callToActionUrl": "/call-of-duty--modern-warfare-ii/p",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }
@@ -90,14 +90,14 @@
 
   "rich-text#question": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "text": "**Ganhar 1 ponto para cada real gasto?\nNa Atmosphere Squad 3 é possível**",
       "blockClass": "question"
     }
   },
 
   "rich-text#link": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "text": "\n**Saiba mais em**\nwww.hiringcoders.com.br",
       "blockClass": "link"
     }
   }

@@ -19,7 +19,7 @@
       "fullWidth": true
     }
   },
-  
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -80,9 +80,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://i.imgur.com/5gYCrts.png",
       "width": "180",
-      "height": "12"
+      "height": "64"
     }
   },
   "header-layout.mobile": {
@@ -112,9 +112,8 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#games-e-consoles",
+      "menu-item#category-home"
     ],
     "props": {
       "orientation": "vertical"
@@ -125,9 +124,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "https://i.imgur.com/5gYCrts.png",
+      "width": "130",
+      "height": "46"
     }
   }
 }

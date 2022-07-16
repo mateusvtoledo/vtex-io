@@ -1,42 +1,41 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#casa-atmosphere"
     ]
   },
-  "menu-item#shop": {
+  "menu-item#casa-atmosphere": {
     "props": {
-      "id": "menu-item-shop",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
-      }
-    }
-  },
-  "vtex.menu@2.x:menu#institutional": {
-    "children": [
-      "menu-item#vtex-website"
-    ]
-  },
-  "menu-item#vtex-website": {
-    "props": {
-      "id": "menu-item-vtex-website",
+      "id": "menu-casa-atmosphere",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
+        "href": "https://www.instagram.com/p/CfzJP4KM5Ju/",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "Conheça a Casa Atmosphere",
+        "text": "Conheça a Casa Atmosphere"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#hc-website"
+    ]
+  },
+  "menu-item#hc-website": {
+    "props": {
+      "id": "menu-item-hc-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://www.hiringcoders.com.br",
+        "noFollow": false,
+        "tagTitle": "Conheça o Hiring Coders",
+        "text": "Conheça o hiringcoders.com.br"
       }
     }
   }

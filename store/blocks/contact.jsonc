@@ -4,7 +4,6 @@
       "flex-layout.row#contact-us"
     ]
   },
-
   "flex-layout.row#contact-us": {
     "props": {
       "blockClass": "contact"
